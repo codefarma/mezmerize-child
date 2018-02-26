@@ -1,0 +1,247 @@
+/**
+ * Theme Name: Mesmerize Child
+ * Template: mesmerize
+ */
+ 
+#main {
+	padding-top: 25px;
+}
+
+.wedocs-breadcrumb {
+	margin-top: 10px !important;
+}
+
+.wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single {
+	border: 0;
+	text-align: center;
+	margin-bottom: 80px;
+	box-shadow: none;
+}
+
+.wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single h3 {
+	margin: 0 auto;
+	width: 75%;
+	border-bottom: 1px solid rgba(51,122,183,0.7)
+}
+
+.wedocs-shortcode-wrap ul.wedocs-docs-list ul.wedocs-doc-sections {
+	list-style-type: none;
+}
+
+.wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single .wedocs-doc-link {
+	background: transparent;
+	border: 0;
+}
+
+.wedocs-single-content code + em {
+	font-style: normal;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	font-size: 0.85em;
+	vertical-align: top;
+	margin-left: 10px;
+	letter-spacing: -1px;
+}
+
+.wedocs-single-content h4 em {
+	font-style: normal;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	font-size: 0.8em;
+	vertical-align: top;
+	margin-left: 10px;
+	letter-spacing: -1px;
+}
+
+.wedocs-single-content h4 + blockquote {
+	font-style: normal;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	font-size: 1em;
+	vertical-align: top;
+	margin: -20px 0 15px 0;
+	letter-spacing: -1px;
+	border-left: 0;
+	padding-left: 0;
+}
+
+.wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li ul.children {
+	display: block;
+}
+
+@media (max-width: 768px) {
+  .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li ul.children {
+	display: none;
+  }
+}
+
+.wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li.page-item-124 ul.children,
+.wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li.page-item-125 ul.children,
+.wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li.page-item-115 ul.children,
+.wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li.page-item-20 ul.children {
+	display: none;
+}
+
+.wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list > li.current_page_parent ul.children, 
+.wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list > li.current_page_item ul.children, 
+.wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list > li.current_page_ancestor ul.children {
+	display: block !important;
+}
+
+.wedocs-single-content .section-ref {
+	visibility: hidden;
+	position: relative;
+	top: -150px;
+}
+
+.wedocs-single-content ul.section-links {
+	list-style-type: none;
+	margin: 0 0 45px;
+	padding: 0;
+}
+
+.type-docs blockquote {
+	font-style: normal;
+	color: #8E9DAE;
+	/*color: #4974a7;
+	border-left: 5px solid rgba(73, 116, 167, 0.9);*/
+	padding: 0px 20px;
+	font-size: 1em;
+}
+
+.type-docs blockquote strong {
+	font-weight: normal;
+	color: #285283;
+}
+
+.type-docs blockquote:after {
+	content: '';
+}
+
+.type-docs blockquote p {
+	padding: 5px 0 !important;
+}
+
+body #primary {
+	text-align: left;
+}
+
+body #page h2 {
+	font-size: 1.5em;
+	font-family: inherit;
+	letter-spacing: inherit;
+}
+
+body #page h3 {
+	font-size: 1.3em;
+	font-family: inherit;
+	font-weight: normal;
+	letter-spacing: inherit;
+}
+
+body #page h4 {
+	font-size: 1.25em;
+	font-family: inherit;
+	font-weight: normal;
+	letter-spacing: inherit;
+}
+
+body #page h5 {
+	font-size: 1.2em;
+	font-family: inherit;
+	font-weight: normal;
+	letter-spacing: inherit;
+}
+
+body #page h6 {
+	font-size: 1em;
+	font-family: inherit;
+	font-weight: normal;
+	letter-spacing: inherit;
+}
+
+body {
+	color: #4a5159;
+}
+
+code {
+	line-height: 1.4em;
+}
+
+br + code {
+	margin: 0;
+}
+
+#primary p {
+	padding-bottom: 20px;
+}
+
+pre code {
+	line-height: 1.1rem;
+}
+
+.type-docs code {
+	white-space: pre-wrap;
+}
+
+.type-docs code br {
+	display: none;
+}
+
+.type-docs pre.prettyprint + blockquote {
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	font-size: 0.8em;
+	line-height: 1.8em;
+	color: #006262;
+	text-align: left;
+}
+
+/* Pretty printing styles. Used with prettify.js. */
+/* Vim sunburst theme by David Leibovic */
+
+pre .str, code .str { color: #65B042; } /* string  - green */
+pre .kwd, code .kwd { color: #E28964; } /* keyword - dark pink */
+pre .com, code .com { color: #AEAEAE; font-style: italic; } /* comment - gray */
+pre .typ, code .typ { color: #89bdff; } /* type - light blue */
+pre .lit, code .lit { color: #3387CC; } /* literal - blue */
+pre .pun, code .pun { color: #fff; } /* punctuation - white */
+pre .pln, code .pln { color: #fff; } /* plaintext - white */
+pre .tag, code .tag { color: #89bdff; } /* html/xml tag    - light blue */
+pre .atn, code .atn { color: #bdb76b; } /* html/xml attribute name  - khaki */
+pre .atv, code .atv { color: #65B042; } /* html/xml attribute value - green */
+pre .dec, code .dec { color: #3387CC; } /* decimal - blue */
+
+pre.prettyprint, code.prettyprint {
+	background-color: #1c1e21 !important;
+	border-radius: 8px;
+	margin-bottom: 20px !important;
+	box-shadow: 0px 0px 5px #aaa;
+}
+
+p + pre.prettyprint, p + code.prettyprint {
+	margin-top: -10px !important;
+}
+
+pre.prettyprint {
+	width: 95%;
+	margin: 1em auto;
+	padding: 1em;
+	white-space: pre-wrap;
+}
+
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE; } /* IE indents via margin-left */
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
+/* Alternate shading for lines */
+li.L1,li.L3,li.L5,li.L7,li.L9 { }
+
+@media print {
+  pre .str, code .str { color: #060; }
+  pre .kwd, code .kwd { color: #006; font-weight: bold; }
+  pre .com, code .com { color: #600; font-style: italic; }
+  pre .typ, code .typ { color: #404; font-weight: bold; }
+  pre .lit, code .lit { color: #044; }
+  pre .pun, code .pun { color: #440; }
+  pre .pln, code .pln { color: #000; }
+  pre .tag, code .tag { color: #006; font-weight: bold; }
+  pre .atn, code .atn { color: #404; }
+  pre .atv, code .atv { color: #060; }
+}
