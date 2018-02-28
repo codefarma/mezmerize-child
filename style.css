@@ -67,6 +67,9 @@
 }
 
 @media (max-width: 768px) {
+  h1.hero-title {
+	font-size: 3rem;
+  }
   .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li ul.children {
 	display: none;
   }
@@ -75,6 +78,7 @@
 .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li.page-item-124 ul.children,
 .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li.page-item-125 ul.children,
 .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li.page-item-115 ul.children,
+.wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li.page-item-969 ul.children,
 .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li.page-item-20 ul.children {
 	display: none;
 }
