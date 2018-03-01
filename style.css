@@ -68,7 +68,8 @@
 
 @media (max-width: 768px) {
   h1.hero-title {
-	font-size: 3rem;
+	font-size: 2.6rem;
+	line-height: 3.8rem;
   }
   .wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li ul.children {
 	display: none;
