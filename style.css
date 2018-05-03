@@ -250,3 +250,43 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
   pre .atn, code .atn { color: #404; }
   pre .atv, code .atv { color: #060; }
 }
+
+/* Mesmerize Customizations */
+@media screen and ( max-width: 780px ) {
+	#page .inner-header-description {
+		padding-top: 3%;
+		padding-bottom: 15%;
+	}
+}
+
+.mesmerize-content-padding #page > .page-content, 
+.mesmerize-inner-page #page > .page-content {
+	padding-top: 1rem;
+}
+
+#page .footer {
+	background-color: #337ab7;
+	color: #ffffff;
+}
+
+#page .footer p {
+	color: #fff;
+}
+
+.mwp-bootstrap a.button {
+	color: #fff;
+	background-color: #03a9f4;
+}
+
+.mwp-bootstrap .button:hover {
+	outline: none;
+	text-decoration: none;
+	color: #fff;
+	background-color: #2ebcfc;
+	border-color: #2ebcfc;
+}
+
+/* Woocommerce Customizations */
+#page .woocommerce-Tabs-panel {
+	padding-bottom: 25px;
+}
